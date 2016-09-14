@@ -29,7 +29,15 @@ public class MarshmallowMonstar
 		this.hasBellyButton = hasBellyButton;
 		
 	}
+	public String toString()
+	{
+		String description = "Monstar says: Name is " + name;
+		
+		return description;
+		
+	}
 }
+
 
 
 
