@@ -10,7 +10,7 @@ public class MonstarController
 	public MonstarController()
 	
 	{
-		firstMonstar = new MarshmallowMonstar ("Rocky", 24768.4, 5, 45, 4, true);
+		firstMonstar = new MarshmallowMonstar ("Rocky", 2.2, 8, 8, 4, false);
 		
 	}
 	
@@ -19,12 +19,12 @@ public class MonstarController
 	{
 		System.out.println ("We made monsters today!");
 		System.out.println("Here is my " + firstMonstar);
-		System.out.println("it has " + firstMonstar.getEyeCount() + "Eyes!");
-		System.out.println("it has " + firstMonstar.getAntennaCount() + "antenne!");
-		System.out.println("it has " + firstMonstar.getLegCount() + "legs!");
-		System.out.println("it has " + firstMonstar.getNoseCount() + "legs!");
-		System.out.println("it has " + firstMonstar.getHasBellyButton() + "legs!");
-		System.out.println("it's name is " + firstMonstar.getName() + "scary!");
+		System.out.println("it has " + firstMonstar.getEyeCount() + " Eyes!");
+		System.out.println("it has " + firstMonstar.getAntennaCount() + " antenne!");
+		System.out.println("it has " + firstMonstar.getLegCount() + " legs!");
+		System.out.println("it has " + firstMonstar.getNoseCount() + " noses!");
+		System.out.println("it has " + firstMonstar.getHasBellyButton() + " legs!");
+		System.out.println("it's name is " + firstMonstar.getName() + " scary!");
 		
 		
 	}
