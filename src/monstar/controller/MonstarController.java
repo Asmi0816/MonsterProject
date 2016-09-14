@@ -19,12 +19,13 @@ public class MonstarController
 	{
 		System.out.println ("We made monsters today!");
 		System.out.println("Here is my " + firstMonstar);
-		System.out.println("it has " + firstMonstar.getEyeCount() + " Eyes!");
+		System.out.println("it's name is " + firstMonstar.getName() + ", scary!");
 		System.out.println("it has " + firstMonstar.getAntennaCount() + " antenne!");
+		System.out.println("it has " + firstMonstar.getEyeCount() + " Eyes!");
 		System.out.println("it has " + firstMonstar.getLegCount() + " legs!");
 		System.out.println("it has " + firstMonstar.getNoseCount() + " noses!");
-		System.out.println("it has " + firstMonstar.getHasBellyButton() + " legs!");
-		System.out.println("it's name is " + firstMonstar.getName() + " scary!");
+		System.out.println("it is " + firstMonstar.getHasBellyButton() + " to think the monstar has a belly button.");
+		
 		
 		
 	}
