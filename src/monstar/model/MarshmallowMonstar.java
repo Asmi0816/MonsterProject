@@ -31,15 +31,6 @@ public class MarshmallowMonstar
 	}
 }
 
-/*
- * Monster name is Rocky
- * has 2.2 antenna
- * has 4 legs
- * has 2 noses
- * has 8 eyes
- * does have belly button
- */
-
 
 
 
