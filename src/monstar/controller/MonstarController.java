@@ -65,9 +65,27 @@ public class MonstarController
 			System.out.println("yha he's scary the way he is!");
 		}
 		
-		System.out.println(legsAnswer);
+		System.out.println(firstMonstar.getLegCount());
 		
 		
+		
+		
+		System.out.println("now that we have done the legs should we change the antenna count?");
+		String newTenntical = keyBoardInput.nextLine();
+		
+		if (newTenntical.equalsIgnoreCase("Yes"))
+		{
+			System.out.println("How many tenticals? Don't get rid of all of them...");
+			double antennaNum = keyBoardInput.nextDouble(); 
+			firstMonstar.setAntennaCount(antennaNum);
+		}
+		
+		else
+		{
+			System.out.println("Yha too many antenna makes it look stupid.");
+		}
+		
+		System.out.println(firstMonstar.getAntennaCount());
 		
 		
 		
