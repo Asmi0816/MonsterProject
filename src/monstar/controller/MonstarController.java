@@ -30,7 +30,7 @@ public class MonstarController
 		
 		
 		
-		System.out.println("do you want to chane my monsars name?");
+		System.out.println("do you want to change my monstars name?");
 		String answer = keyBoardInput.nextLine();
 		
 		
@@ -50,7 +50,7 @@ public class MonstarController
 		
 		
 		
-		System.out.println("what do you think, type more or perfect?");
+		System.out.println("what do you think about the legs, type more or perfect?");
 		String newLegs = keyBoardInput.nextLine();
 		
 		if (newLegs.equalsIgnoreCase("more"))
@@ -58,6 +58,7 @@ public class MonstarController
 			System.out.println("I agree we need something done about those legs... how many should there be?");
 			int legsAnswer = keyBoardInput.nextInt();
 			firstMonstar.setLegCount(legsAnswer);
+			keyBoardInput.nextLine();
 		}
 		
 		else
@@ -65,7 +66,7 @@ public class MonstarController
 			System.out.println("yha he's scary the way he is!");
 		}
 		
-		System.out.println(firstMonstar.getLegCount());
+		System.out.println("it has "+firstMonstar.getLegCount() + " Legs!");
 		
 		
 		
@@ -78,6 +79,7 @@ public class MonstarController
 			System.out.println("How many tenticals? Don't get rid of all of them...");
 			double antennaNum = keyBoardInput.nextDouble(); 
 			firstMonstar.setAntennaCount(antennaNum);
+			keyBoardInput.nextLine();
 		}
 		
 		else
@@ -85,7 +87,33 @@ public class MonstarController
 			System.out.println("Yha too many antenna makes it look stupid.");
 		}
 		
-		System.out.println(firstMonstar.getAntennaCount());
+		System.out.println("You made it have " +firstMonstar.getAntennaCount() + " antenne.");
+		
+		
+		
+		
+		
+		
+		System.out.println("Finally do you think it's a demon with no belly button or... was it birthed by something much worse?");
+		String demonBirth = keyBoardInput.nextLine();
+		
+		if (demonBirth.equalsIgnoreCase("demon"))
+		{
+			System.out.println("The devil himself created this creature for the sole purpose of you changing it.");
+		}
+		
+		else if (demonBirth.equalsIgnoreCase("birthed"))
+		{
+			System.out.println("Mothera and Godzilla have nothing on the mother of " + firstMonstar.getName()+ " and if you were to ever encounter this ledgendary creature you would never be heard of again.");
+			
+		}
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
