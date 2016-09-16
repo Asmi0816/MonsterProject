@@ -30,8 +30,27 @@ public class MonstarController
 		
 		
 		
-		
+		System.out.println("do you want to chane my monsars name?");
 		String answer = keyBoardInput.nextLine();
+		
+		
+		if (answer.equalsIgnoreCase("yes"))
+		{
+			System.out.println("Fine you jerk, what would you name him?");
+			String newName = keyBoardInput.nextLine();
+			firstMonstar.setName(newName);
+		}
+		else
+		{
+			System.out.println("Good because he's my monstar not yours!!!");
+		}
+		System.out.println(firstMonstar);
+		
+		
+		
+		
+		
+		
 		
 		
 	}
