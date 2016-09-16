@@ -29,6 +29,7 @@ public class MarshmallowMonstar
 		this.hasBellyButton = hasBellyButton;
 		
 	}
+	
 	public String toString()
 	{
 		String description = "Monstar says: Name is " + name;
@@ -70,8 +71,39 @@ public class MarshmallowMonstar
 	}
 	
 	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
 	
-	
+	 public void setHasBellyButton(boolean hasBellyButton)
+	 {
+		 this.hasBellyButton = hasBellyButton; 
+	 }
+	 
+	 public void setLegCount (int legCount)
+	 {
+		 this.legCount = legCount;
+	 }
+	 
+	 public void setEyeCount (int eyeCount)
+	 {
+		 this.eyeCount = eyeCount;
+	 }
+	 
+	 public void setAntennaCount(double antennaCount)
+	 {
+		 this.antennaCount = antennaCount;
+	 }
+	 
+	 public void setNoseCount(int noseCount)
+	 
+	 {
+		 this.noseCount = noseCount;
+	 }
+	 
+	 
+	 
 }
 
 

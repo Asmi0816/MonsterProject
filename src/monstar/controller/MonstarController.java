@@ -1,17 +1,19 @@
 package monstar.controller;
 
 import monstar.model.MarshmallowMonstar;
+import java.util.Scanner;
 
 public class MonstarController
 {
 	
 	private MarshmallowMonstar firstMonstar;
+	private Scanner keyBoardInput;
 	
 	public MonstarController()
 	
 	{
 		firstMonstar = new MarshmallowMonstar ("Rocky", 2.2, 8, 8, 4, false);
-		
+		keyBoardInput = new Scanner(System.in);
 	}
 	
 	public void start()
@@ -28,15 +30,12 @@ public class MonstarController
 		
 		
 		
+		
+		String answer = keyBoardInput.nextLine();
+		
+		
 	}
 	
-	/*
-	 * Monster name is Rocky
-	 * has 2.2 antenna
-	 * has 4 legs
-	 * has 2 noses
-	 * has 8 eyes
-	 * does have belly button
-	 */
+
 
 }
