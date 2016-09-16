@@ -50,6 +50,24 @@ public class MonstarController
 		
 		
 		
+		System.out.println("what do you think, type more or perfect?");
+		String newLegs = keyBoardInput.nextLine();
+		
+		if (newLegs.equalsIgnoreCase("more"))
+		{
+			System.out.println("I agree we need something done about those legs... how many should there be?");
+			int legsAnswer = keyBoardInput.nextInt();
+			firstMonstar.setLegCount(legsAnswer);
+		}
+		
+		else
+		{
+			System.out.println("yha he's scary the way he is!");
+		}
+		
+		System.out.println(legsAnswer);
+		
+		
 		
 		
 		
